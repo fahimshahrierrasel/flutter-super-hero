@@ -1,0 +1,30 @@
+name: super_hero
+description: Super Hero
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  google_fonts: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/spiderman.png
+    - assets/spider.png
+    - assets/ironman.png
+    - assets/ironman_mask.png
+    - assets/cap.png
+    - assets/cap_sheild.png
+
